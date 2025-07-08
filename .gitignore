@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+kenya_inflation.csv
+.DS_Store
+*.xlsx
