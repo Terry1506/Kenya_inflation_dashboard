@@ -1,28 +1,4 @@
-# import streamlit as st
-# import pandas as pd
-# import plotly.express as px
 
-# # Page settings
-# st.set_page_config(page_title="Kenya Inflation Dashboard", layout="centered")
-
-# # Title + intro
-# st.title("📈 Kenya Inflation Trends Dashboard")
-# st.markdown("Visualizing Kenya's inflation rate from 2000 to 2023 using World Bank data.")
-
-# # Load dataset
-# df = pd.read_csv("kenya_inflation.csv")
-
-# # Line chart
-# fig = px.line(df, x="Year", y="Inflation (%)", markers=True,
-#               title="Annual Inflation Rate in Kenya (2000–2023)",
-#               labels={"Inflation (%)": "Inflation %", "Year": "Year"})
-
-# st.plotly_chart(fig, use_container_width=True)
-
-# # Checkbox to show raw data
-# if st.checkbox("Show Raw Data"):
-#     st.subheader("Raw Data")
-#     st.write(df)
 import streamlit as st
 import pandas as pd
 import plotly.express as px
